@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.card_box {
+    width: 100%;
+    height: 919px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card_box .parent {
+    width: 1200px;
+    height: 700px;
+    border: 2px dashed gainsboro;
+}
+
+.card_box .parent .first_child {
+    width: 40%;
+    /* border: 2px solid red; */
+    margin: auto;
+}
+
+.card_box .parent .first_child .paragraph {
+    text-align: center;
+    opacity: 0.6;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.card_box .parent .first_child .heading {
+    text-align: center;
+    font-size: 35px;
+}
+
+.card_box .parent .child_parent {
+    margin-top: 20px;
+    width: 1196px;
+    height: 500px;
+    /* border: 2px solid gray; */
+    display: flex;
+}
+
+.card_box .parent .child_parent .first {
+    /* border: 2px solid red; */
+    width: 388px;
+    margin-right: 20px;
+}
+
+.image {
+    width: 384px;
+}
+
+.two {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.btn_1 {
+    padding: 10px;
+    border-radius: 8px;
+    background: rgba(82, 195, 3, 0.15);
+    border: none;
+    outline: none;
+    margin-bottom: 15px;
+}
+
+.three {
+    text-align: center;
+}
+
+.three .header_1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.card_box .parent .child_parent .second {
+    /* border: 2px solid red; */
+    width: 388px;
+    margin-right: 20px;
+}
+
+.card_box .parent .child_parent .third {
+    /* border: 2px solid red; */
+    width: 388px;
+}
+
+.second_child {
+    text-align: center;
+    margin-top: 13px;
+}
+
+.second_child #btn {
+    border-radius: 8px;
+    background: rgb(82, 195, 3);
+    padding: 15px 10px;
+}
