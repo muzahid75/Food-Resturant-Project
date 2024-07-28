@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+#card {
+    /* border: 2px solid black; */
+    width: 100%;
+    height: 919px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: aqua; */
+}
+
+#card div.parent {
+    border: 2px dashed gainsboro;
+    width: 424px;
+    height: 655px;
+}
+
+.first_child .image {
+    width: 420px;
+    height: 283px;
+}
+
+.first_child {
+    margin-bottom: 20px;
+}
+
+#card div.parent .second_child {
+    text-align: center;
+}
+
+.first_btn .btn_1 {
+    color: black;
+    border-radius: 8px;
+    background: rgba(82, 195, 3, 0.15);
+    outline: none;
+    border: none;
+    padding: 10px 20px;
+}
+
+.second_child .header {
+    margin: 10px;
+    font-size: 40px;
+}
+
+.second_child .paragraph {
+    font-size: 18px;
+}
+
+.parent .third_child {
+    margin-top: 155px;
+    text-align: center;
+}
+
+.third_child .btn_2 {
+    border-radius: 8px;
+
+    background: rgb(82, 195, 3);
+    outline: none;
+    border: none;
+    padding: 15px 30px;
+}
